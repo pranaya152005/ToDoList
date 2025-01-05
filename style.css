@@ -1,0 +1,63 @@
+body{
+    font-family: brush script mt;
+    background-color: #c02cc8;
+    align-items: center;
+}
+.To-do-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.To-do-app h1{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #d54af8;
+    font-family: brush script mt;
+    align-items: center;
+}
+
+#add-task-btn {
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #d26dee;
+    color: #110c12;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: brush script mt;
+    align-items: center;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.task-item {
+    padding: 10px;
+    border-bottom: 1px solid #c738de;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
